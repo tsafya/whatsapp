@@ -5,6 +5,16 @@
     <link rel="icon" type="image/x-icon" href="icons/favicon.ico">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="whatsapp, send WhatsApp direct, no contact, without adding to contacts, messages without adding contact, message, direct message, unsaved contacts, unsaved number, easy new message">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-GMTDY81Z22"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-GMTDY81Z22');
+    </script>
     <script type="text/javascript">
         const ISRAEL = '972';
         const url = new URL(window.location.href);
@@ -83,7 +93,7 @@
             align-items: center;
         }
         .logo {
-            margin-top: 80px;
+            margin-top: 60px;
         }    
 
         .top-sub-title {
@@ -195,6 +205,15 @@
             gap: 6px;
             font-size: 18px;
             color: #ff8585;
+        }
+        .bottom {
+            position: absolute;
+            bottom: 20px;
+        }
+        .bottom a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 18px;
         }
     </style>
 </head>
@@ -459,6 +478,9 @@
                 <div>Number must have at least 5 digits</div>
             </div>
             <div class="button" onclick="openWhatsApp()">Start your chat</div>
+        </div>
+        <div class="bottom">
+            <a href="mailto: send2any1@gmail.com">contact us</a>
         </div>
     </div>
 </body>
